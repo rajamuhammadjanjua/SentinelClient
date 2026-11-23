@@ -1,0 +1,12 @@
+{
+  "activeProfile": "default",
+  "gui": {
+    "scale": 1.0,
+    "panelOffsetX": 20,
+    "panelOffsetY": 20,
+    "theme": "Obsidian Dark",
+    "guiKeyCode": 48,
+    "extremeWarningAcknowledged": false
+  },
+  "modules": {}
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "sentinel-client",
+  "version": "${version}",
+  "name": "Sentinel Client",
+  "description": "Client-side anti-cheat testing and telemetry mod for Minecraft 26.3 Fabric.",
+  "authors": [
+    "Sentinel Security & Modding Team"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.sentinel.SentinelClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
